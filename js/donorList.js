@@ -1,24 +1,24 @@
 // Define the initial donors
 const initialDonors = [
   {
-    name: "Sarah Jones",
-    email: "sjones@gmail.com",
+    name: "vaibhav",
+    email: "vaibhav342@gmail.com",
     phone: "8885557890",
     bloodGroup: "B+",
     location: "Hyderabad, India",
   },
 
   {
-    name: "Amit Patel",
-    email: "apatel@gmail.com",
+    name: "Shiva Sai",
+    email: "shivasai8876@gmail.com",
     phone: "9175551234",
     bloodGroup: "O+",
     location: "Secunderabad, Hyderabad",
   },
 
   {
-    name: "Emily Kim",
-    email: "ekim@gmail.com",
+    name: "P Kaushik",
+    email: "kaushik43421@gmail.com",
     phone: "8885552345",
     bloodGroup: "A-",
     location: "Madhapur, Hyderabad",
@@ -26,15 +26,15 @@ const initialDonors = [
 
   {
     name: "Sanjay Singh",
-    email: "ssingh@gmail.com",
+    email: "sanjaysingh@gmail.com",
     phone: "9865556789",
     bloodGroup: "AB+",
     location: "Gachibowli, Hyderabad",
   },
 
   {
-    name: "Rachel Chen",
-    email: "rchen@gmail.com",
+    name: "Vinay Kumar",
+    email: "vinayKumar441@gmail.com",
     phone: "9885554567",
     bloodGroup: "B-",
     location: "Banjara Hills, Hyderabad",
@@ -49,8 +49,8 @@ const initialDonors = [
   },
 
   {
-    name: "Priya Menon",
-    email: "pmenon@gmail.com",
+    name: "Priya kumari",
+    email: "priyakumari32@gmail.com",
     phone: "9175553456",
     bloodGroup: "A+",
     location: "Jubilee Hills, Hyderabad",
@@ -58,7 +58,7 @@ const initialDonors = [
 
   {
     name: "Kiran Rao",
-    email: "krao@gmail.com",
+    email: "kiran8896@gmail.com",
     phone: "9985555678",
     bloodGroup: "AB-",
     location: "Kondapur, Hyderabad",
@@ -66,7 +66,7 @@ const initialDonors = [
 
   {
     name: "Neha Gupta",
-    email: "ngupta@gmail.com",
+    email: "neha765@gmail.com",
     phone: "9035556789",
     bloodGroup: "B+",
     location: "Ameerpet, Hyderabad",
@@ -74,7 +74,7 @@ const initialDonors = [
 
   {
     name: "Rajesh Kumar",
-    email: "rkumar@gmail.com",
+    email: "rajeshkumar@gmail.com",
     phone: "9865551234",
     bloodGroup: "O+",
     location: "Begumpet, Hyderabad",
@@ -121,9 +121,6 @@ function populateDonorList() {
 
   // Get a reference to the donor list table body
   var tableBody = document.getElementById("donor-list-body");
-
-  // Clear the table
-  // tableBody.innerHTML = "";
 
   // Loop through the donor data and add rows to the table
   for (var i = 0; i < donors.length; i++) {
